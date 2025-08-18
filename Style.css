@@ -1,5 +1,4 @@
 * {
-  margin: 1;
   padding: 1px;
   justify-items: center;
   color: rgb(255, 0, 0);
@@ -10,7 +9,7 @@ body {
   text-align: center;
 }
 .container {
-  height: 62vh;
+  height: 54vh;
   justify-items: center;
   align-items: center;
   width: 450px;
@@ -26,12 +25,12 @@ body {
   height: 90px;
   width: 90px;
   border-radius: 7px;
-  box-shadow: 0px 0 50px rgb(0, 0, 0);
+  box-shadow: 0px 0 20px rgb(0, 0, 0);
   margin: 10px;
   font-size: 50px;
   font-weight: bold;
   color: yellow;
-  background-color: rgb(69, 93, 162);
+  background-color: rgb(72, 76, 86);
   position: static;
   border: none;
   overflow: hidden;
@@ -55,6 +54,7 @@ body {
   color: white;
   border-radius: 10px;
   border: none;
+  margin-bottom: 50px;
 }
 
 #new-btn {
@@ -68,8 +68,9 @@ body {
 }
 
 #msg {
-  color: #ffffc7;
+  color: #fff700;
   font-size: 30px;
+  font-weight: 700;
 }
 
 .msg-container {

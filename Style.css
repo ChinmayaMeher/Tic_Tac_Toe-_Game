@@ -38,6 +38,12 @@ body {
   white-space: nowrap;
   line-height: 100px;
   vertical-align: middle;
+  border: 2px solid transparent;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+.box:hover {
+  border: 2px solid #e5ff00;
+  color: #e5ff00;
 }
 .box:disabled {
   cursor: not-allowed;

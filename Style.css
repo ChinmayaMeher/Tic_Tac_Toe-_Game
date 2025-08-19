@@ -86,3 +86,21 @@ body {
 .hide {
   display: none;
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  body {
+    flex-flow: none;
+    justify-content: center;
+    align-items: center;
+  }
+  #msg {
+    color: #fff700;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .container {
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+}
